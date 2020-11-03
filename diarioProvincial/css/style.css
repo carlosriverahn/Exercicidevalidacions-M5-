@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+article{
+    margin: 1rem;
+}
+.card-custom {
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f4f4f2;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+i:hover {
+    opacity: 0.8;
+}
+
+.t-d-none {
+    color: black;
+    text-decoration: none
+}
+
+.t-d-none:hover {
+    color: black;
+    text-decoration: none
+}
+.t-d-nonew {
+    color: black;
+    text-decoration: none
+}
+
+.t-d-nonew:hover {
+    color: rgb(183, 184, 240);
+    text-decoration: none
+}
+.t-d-nonef {
+    color: black;
+    text-decoration: none
+}
+
+.t-d-nonef:hover {
+    color: rgb(183, 184, 240);
+    text-decoration: none
+}
+.t-d-nonef::before {
+    content: "";
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+    border-right: 2px solid #3e4d67;
+}
+
+.display-5 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.display-6 {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.f-size {
+    font-size: 2vmax;
+    color: whitesmoke;
+    font-weight: 700;
+    -webkit-text-stroke: .4px black;
+    
+}
+
+@media (min-width: 768px) {
+    .f-size {
+        font-size: 2vmax;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color: white;
+    text-decoration-color: white;
+}
+
+.lora-font {
+    font-family: 'Lora', serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.font-small {
+    font-size: .9rem
+}
+
+.indidb {
+    background-color: #0F3057
+}
+
+.darkdb1 {
+    background-color: #00587a
+}
+
+.btn-indidb {
+    color: #fff;
+    background-color: #0F3057;
+    border-color: #0F3057;
+}
+
+.btn-indidb:hover {
+    color: #fff;
+    background-color: #0F3057;
+    border-color: #0F3057;
+}
+
+.btn-indidb:focus,
+.btn-indidb.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.text-indidb {
+    color: #0F3057;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+    color: #0F3057;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff
+}
+
+footer.page-footer .container-fluid {
+    width: auto
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+footer.page-footer a {
+    color: #fff
+}
+
+@media (min-width: 992px) {
+    .s-img {
+        height: 11rem;
+    }
+}
