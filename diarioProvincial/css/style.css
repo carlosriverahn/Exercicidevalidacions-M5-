@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 img:hover {
     opacity: 0.8;
 }
@@ -138,6 +139,9 @@ i:hover {
 a.text-primary:hover,
 a.text-primary:focus {
     color: #0F3057;
+}
+#form01 {
+    min-height: 70vh; 
 }
 
 footer.page-footer {
