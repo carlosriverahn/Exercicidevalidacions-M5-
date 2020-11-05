@@ -61,9 +61,12 @@ const validarCampo = (expresion, value, campo) => {
 
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
+	if(form.state.value == "") {
+		state.classList.add("is-invalid");
+	}
 	inputs.forEach(input => { if(input.value ==""){input.classList.add('is-invalid')}	
 	});
-	const terms = document.getElementById('invalidCheck');
+	const terms = form.invalidCheck;
 	if(!terms.checked) {
 		terms.classList.add("is-invalid");
 	}else{
