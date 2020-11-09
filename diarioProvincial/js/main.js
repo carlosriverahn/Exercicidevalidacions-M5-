@@ -1,6 +1,5 @@
-const form = document.getElementById("form01")
+const form = document.getElementById("form01");
 const inputs = document.querySelectorAll('#form01 input');
-let acumErrores = 0;
 
 let expresiones = {
 	
